@@ -32,7 +32,7 @@ designed pipeline using Yolo algorithm to detect the boxed objects first and lat
 from the training data-sets and used those on the box by box segmented results to reduce false-positive intersections
 on the overall image."
               doc_desc = "View Thesis PDF"
-              doc_link = "https://raw.githubusercontent.com/pvbhanuteja/portfolio/master/src/Assets/Bhanu_TAMU_Resume_HomePage.pdf"
+              doc_link = "https://raw.githubusercontent.com/pvbhanuteja/portfolio/master/src/Assets/Btech_Thesis.pdf"
               // link="https://github.com/pvbhanuteja/semantic-segmentation"
             />
           </Col>
