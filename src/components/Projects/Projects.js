@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import mailhunt from "../../Assets/Projects/mailhunt.png";
 import densecrowd from "../../Assets/Projects/dense_crowd.png";
 import segmentation from "../../Assets/Projects/segmentation.png";
+import resnet from "../../Assets/Projects/resnet.png";
 
 
 // import Linking from 'react-native';
@@ -60,6 +61,17 @@ on the overall image."
               Deep CNN helped to count near the part of the image where the density of the crowd is very high and shallow CNN
 helped in detecting the persons who are completely visible (where the complete body was visible).
 This method could detect up to 80% accuracy where the actual count in the image is approximately as high as 4000"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={resnet}
+              isBlog={false}
+              title="Resnet on CIFAR"
+              description="Implemented resnet using pytorch (both residual blocks and bottleneck blocks) for CIFAR dataset. Achieved 90% Accuracy on using bottleneck blocks 
+              with a reset size of 18."
+              link="https://github.com/pvbhanuteja/CIFAR-Resnet-Pytorch/tree/main"
             />
           </Col>
 
