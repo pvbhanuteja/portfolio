@@ -25,7 +25,7 @@ function ProjectCards(props) {
   }
 
   else{
-    LinkButton = <Button variant="primary" href={props.doc_link} target="_blank">
+    LinkButton = <Button variant="primary" href={props.link} target="_blank">
     <BiLinkExternal /> &nbsp;
     {'View on github'}
   </Button>

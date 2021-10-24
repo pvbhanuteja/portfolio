@@ -71,7 +71,7 @@ This method could detect up to 80% accuracy where the actual count in the image 
               title="Resnet on CIFAR"
               description="Implemented resnet using pytorch (both residual blocks and bottleneck blocks) for CIFAR dataset. Achieved 90% Accuracy on using bottleneck blocks 
               with a reset size of 18."
-              link="https://github.com/pvbhanuteja/CIFAR-Resnet-Pytorch/tree/main"
+              link="https://github.com/pvbhanuteja/CIFAR-Resnet-Pytorch/"
             />
           </Col>
 
