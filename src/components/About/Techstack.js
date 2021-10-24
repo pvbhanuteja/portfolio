@@ -9,7 +9,8 @@ import {
   DiPython,
   DiGit,
   DiPostgresql,
-  DiAws
+  DiAws,
+  DiDocker,
 } from "react-icons/di";
 import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
 
@@ -45,6 +46,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
       </Col>
     </Row>
   );
