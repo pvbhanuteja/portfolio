@@ -7,6 +7,7 @@ import mailhunt from "../../Assets/Projects/mailhunt.png";
 import densecrowd from "../../Assets/Projects/dense_crowd.png";
 import segmentation from "../../Assets/Projects/segmentation.png";
 import resnet from "../../Assets/Projects/resnet.png";
+import mixup from '../../Assets/Projects/mixup.png';
 
 
 // import Linking from 'react-native';
@@ -23,6 +24,20 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mixup}
+              isBlog={false}
+              title="mixRnet"
+              description="While novel computer vision architectures are gaining traction, the impact of model architectures is often related to changes or exploring in training methods. Identity mapping-based architectures ResNets and DenseNets have promised path-breaking results in the image classification task and are go-to methods for even now if the data given is fairly limited. Considering the ease of training with limited resources this work revisits the ResNets and improves the ResNet50 by using mixup data-augmentation as regularization and tuning the hyper-parameters."
+              doc_desc = "Link to arXiv"
+              doc_link = "https://arxiv.org/abs/2111.11616"
+              link="https://github.com/pvbhanuteja/mixRnet"
+            />
+          </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={segmentation}
